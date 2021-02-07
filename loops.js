@@ -27,4 +27,4 @@ function doWhileLoop(doint) {
 
 do {
   console.log("I run once regardless")
-} while (doWhileLoop() <= donit)
+} while (doWhileLoop() < donit)
