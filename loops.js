@@ -24,10 +24,12 @@ function doWhileLoop(num) {
   // doint = doint + 1
   // return doint
     function incrementVarible() {
-      
+      doint = doint + 1
+      return doint
     }
-}
 
-do {
-  console.log("I run once regardless")
-} while (doWhileLoop(num) < donit)
+
+  do {
+    console.log("I run once regardless")
+  } while (incrementVarible() < num)
+}
