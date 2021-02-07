@@ -18,9 +18,9 @@ function whileLoop(num) {
   return "done"
 }
 
-// var doint = 0
+var doint = 0
 function doWhileLoop(num) {
-  var doint = 0
+  // var doint = 0
     function incrementVarible() {
       doint = doint + 1
       return doint
