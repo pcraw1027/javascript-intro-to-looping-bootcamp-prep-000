@@ -20,6 +20,7 @@ function whileLoop(num) {
 
 var doint = 0
 function doWhileLoop(num) {
+  
   // console.log(num)
   // doint = doint + 1
   // return doint
