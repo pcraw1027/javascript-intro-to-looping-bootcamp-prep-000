@@ -18,9 +18,9 @@ function whileLoop(num) {
   return "done"
 }
 
-var doint = 0
+// var doint = 0
 function doWhileLoop(num) {
-  
+  var doint = 0
   // console.log(num)
   // doint = doint + 1
   // return doint
@@ -31,6 +31,6 @@ function doWhileLoop(num) {
 
 
   do {
-    console.log("I run once regardless")
+    console.log("I run once regardless.")
   } while (incrementVarible() < num)
 }
