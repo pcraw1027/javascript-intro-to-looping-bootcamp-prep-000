@@ -19,7 +19,7 @@ function whileLoop(num) {
 }
 
 var doint = 0
-function doWhileLoop(doint) {
+function doWhileLoop(num) {
   // console.log(num)
   doint = doint + 1
   return doint
@@ -27,4 +27,4 @@ function doWhileLoop(doint) {
 
 do {
   console.log("I run once regardless")
-} while (doWhileLoop() < 0)
+} while (doWhileLoop() < num)
